@@ -1,0 +1,5 @@
+Jane	Smith	F	4
+John	Smith	M	7
+Regal	James	M	12
+Joe	Build	M	1
+Sarah	New	F	1

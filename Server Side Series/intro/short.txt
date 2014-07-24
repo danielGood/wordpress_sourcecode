@@ -1,5 +1,12 @@
-Jane	Smith	F	4
-John	Smith	M	7
-Regal	James	M	12
-Joe	Build	M	1
-Sarah	New	F	1
+
+DROP TABLE `small`;
+
+CREATE TABLE `small` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `email` varchar(255) default NULL,
+  `name` varchar(255) default NULL,
+  `zip` varchar(10) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `small` (`email`,`name`,`zip`) VALUES ("ultrices@Inscelerisquescelerisque.co.uk","Aurora","G8Y 1B5"),("ornare@nullaIntincidunt.com","Alika","87046"),("magna.Ut@luctusutpellentesque.net","Hilel","38945"),("Morbi@eutellusPhasellus.com","Chloe","MM1M 4PZ"),("Phasellus.vitae@egestasrhoncus.com","Zia","80-536");
